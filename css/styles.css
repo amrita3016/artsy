@@ -1,0 +1,240 @@
+
+body {
+  background-color:#FFBBCC;
+  /* background-image: url("https://images.unsplash.com/photo-1520052205864-92d242b3a76b?ixlib=rb-1.2.1&q=80"); */
+  /* max-width: 100%; */
+  overflow-x: hidden;
+  /* overflow-y: scroll; overflow-x: hidden; */
+}
+
+/* headings */
+h1 {
+  position: relative;
+  left: 600px;
+  top: 200px;
+  color: #000;
+  font-family: 'Bad Script', cursive;
+}
+
+h3 {
+  color: #000;
+    font-family: 'Baloo Tamma 2', cursive;
+    position: relative;
+    bottom: 310px;
+}
+h4{
+  line-height: 1.5em;
+  font-family: 'Baloo Tamma 2', cursive;
+  position: relative;
+  bottom: 340px;
+}
+.high{
+  position: relative;
+  left: 100px;
+top: 10px;
+  font-family: 'Kalam', cursive;
+  color: #cc0e74;
+}
+p{
+  font-family: 'Kalam', cursive;
+  color: #790c5a;
+}
+h6{
+  position: relative;
+  left: 340px;
+    color: #ffabe1;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+a:hover{
+  color:#e5707e;
+}
+
+/* hello */
+.hello{
+  position: relative;
+  bottom: 100px;
+}
+/* Animations */
+.anime{
+  width: 40ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+}
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+/* pictures */
+.circle{
+  position: relative;
+  bottom: 340px;
+  width: 800px;
+  right: 20px;
+
+}
+
+.my-pic{
+  position: relative;
+  bottom: 80px;
+  left: 20px;
+  width: 230px;
+}
+.contactme{
+  position: relative;
+  width: 400px;
+  height: 400px;
+  top: 500px;
+  left: 850px;
+}
+.mind{
+  width:400px;
+  height: 440px;
+  position: relative;
+  left: 800px;
+  bottom: 490px;
+  overflow: hidden;
+}
+.mind:hover{
+transform: scale(1.2);
+}
+img{
+  max-width: 100%;
+max-height: 100%;
+transition: 0.70s;
+}
+.spa1{
+  width: 300px;
+  position: relative;
+  bottom: 590px;
+  left: 190px;
+}
+.spa2{
+  width: 300px;
+  position: relative;
+  bottom: 1020px;
+  left:1200px;
+}
+
+/* clases */
+.social-1{
+  position: relative;
+  top: 10px;
+  left: 330px;
+  color: #b088f9;
+  font-family: 'Kalam', cursive;
+}
+
+.social{
+  position: relative;
+  left: 400px;
+  color: #ffabe1;
+  font-family: 'Baloo Tamma 2', cursive;
+font-size: 20px;
+}
+.contact{
+  position: relative;
+  top: 300px;
+  background-color: #212121;
+  color: #fff;
+  padding: 50px;
+  z-index: -1
+
+}
+.para2{
+  position: relative;
+  bottom: 128px;
+  left: 134px;
+}
+.hello {
+  position: relative;
+  top: 150px;
+  left: 140px;
+  width: 300px;
+font-family: 'Noto Sans SC', sans-serif;
+color: #6a2c70;
+}
+
+.artsy {
+  position: relative;
+  left: 80px;
+}
+
+/* buttons */
+.btn{
+  width: 300px;
+  position: relative;
+  left: 130px;
+bottom: 216px;
+  background-color: #4A1C40;
+    font-family: 'Kalam', cursive;
+}
+.btn:hover{
+  background-color: #000;
+}
+
+
+
+/* navbar */
+.navbar {
+  background-color: #790c5a;
+position: absolute;
+width: 1560px;
+right: 0.5px;
+
+}
+.navbar-brand {
+color: #944e6c;
+position: relative;
+left: 90px;
+font-family: 'Dancing Script', cursive;
+font-size: 40px;
+
+}
+
+.navy {
+  position: relative;
+  right: 50px;
+  color: #fff;
+  font-family: 'Kalam', cursive;
+  font-size: 25px;
+}
+
+/* testimonials section */
+#testimonials {
+  background-color: #4A1C40;
+   color: #fff;
+  text-align: center;
+}
+.eye{
+  width: 50%;
+  margin: 20px;
+}
+.god-image{
+  width: 500px;
+  height: 600px;
+}
+h2{
+  color: #fff;
+  font-family: 'Kalam', cursive;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
